@@ -6,6 +6,10 @@
   "stack": "container",
   "website": "https://docs.mulesoft.com/gateway/flex-gateway-overview",
   "env": {
+    "GATEWAY_NAME": {
+      "description": "Name of the Flex Gateway",
+      "required": true
+    },
     "PLATFORM_CONF": {
       "description": ".conf file from register step in base64",
       "required": true
