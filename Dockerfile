@@ -5,7 +5,7 @@ ENV S6_READ_ONLY_ROOT=1 \
   FLEX_RTM_ARM_AGENT_CONFIG=/tmp/platform.conf
 
 WORKDIR /app
-ENTRYPOINT [ ]
+ENTRYPOINT []
 CMD [ "/init" ]
 
 COPY --from=dockerize /usr/local/bin/dockerize /usr/local/bin/
