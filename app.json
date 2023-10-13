@@ -1,7 +1,7 @@
 {
   "name": "heroku-docker-flex-gateway-example",
   "description": "A barebones Flex Gateway installation using Docker",
-  "repository": "https://github.com/garciarodrigor/heroku-docker-flex-gateway-example",
+  "repository": "https://github.com/emanuelr93/heroku-docker-flex-gateway-example/blob/master/app.json",
   "keywords": ["flex", "gateway", "mulesoft", "docker", "proxy"],
   "stack": "container",
   "website": "https://docs.mulesoft.com/gateway/flex-gateway-overview",
