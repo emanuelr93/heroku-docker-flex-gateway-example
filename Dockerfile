@@ -11,5 +11,8 @@ CMD [ "/init" ]
 
 COPY --from=dockerize /usr/local/bin/dockerize /usr/local/bin/
 
-COPY --chmod=777 rootfs/ /
+COPY rootfs/ /
 COPY config/ /usr/local/share/mulesoft/flex-gateway/conf.d
+
+RUN chmod -R +x /etc/services.d
+RUN chmod -R +x /etc/cont-init.d
