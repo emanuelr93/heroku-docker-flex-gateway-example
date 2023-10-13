@@ -5,6 +5,7 @@ ENV S6_READ_ONLY_ROOT=1 \
   FLEX_RTM_ARM_AGENT_CONFIG=/tmp/platform.conf
 
 WORKDIR /app
+USER 0
 ENTRYPOINT []
 CMD [ "/init" ]
 
